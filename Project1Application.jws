@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jws:workspace xmlns:jws="http://xmlns.oracle.com/ide/project">
+   <hash n="adrs-workspace-properties">
+      <value n="adrs-instance-binding" v="DefaultServer"/>
+   </hash>
+   <list n="listOfChildren">
+      <hash><url n="URL" path="Project1.jpr"/></hash>
+      <hash><url n="URL" path="../Seed3Test/Seed3Test.jpr"/></hash>
+   </list>
+</jws:workspace>

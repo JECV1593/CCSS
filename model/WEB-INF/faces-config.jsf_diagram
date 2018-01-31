@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1"/>
+   <Page
+      id="Page2">
+      <property
+         name="wildcard">false</property>
+      <property
+         name="y">191.59766</property>
+      <property
+         name="x">157.0</property>
+      <property
+         name="jspName">/inicio.jsp</property>
+   </Page>
+   <Page
+      id="Page3">
+      <property
+         name="wildcard">false</property>
+      <property
+         name="y">115.59766</property>
+      <property
+         name="x">432.0</property>
+      <property
+         name="jspName">/bienvenido.jsp</property>
+   </Page>
+   <Page
+      id="Page4">
+      <property
+         name="wildcard">false</property>
+      <property
+         name="y">263.5459</property>
+      <property
+         name="x">436.0</property>
+      <property
+         name="jspName">/fallo.jsp</property>
+   </Page>
+   <NavigationCase
+      islink="true"
+      id="NavigationCase5"
+      from="Page2"
+      to="Page3">
+      <property
+         name="fromOutcome">success</property>
+      <property
+         name="description">Navigation Case</property>
+      <property
+         name="sdm:polyPoints">R38,198.0,180.74707,389.7827,111.74707,L46</property>
+   </NavigationCase>
+   <NavigationCase
+      islink="true"
+      id="NavigationCase6"
+      from="Page2"
+      to="Page4">
+      <property
+         name="fromOutcome">error</property>
+      <property
+         name="description">Navigation Case</property>
+      <property
+         name="sdm:polyPoints">R54,199.12415,194.74707,395.0,259.6953,L46</property>
+   </NavigationCase>
+   <NavigationCase
+      islink="true"
+      id="NavigationCase7"
+      from="Page3"
+      to="Page2">
+      <property
+         name="fromOutcome">gotoInicio</property>
+      <property
+         name="description">Navigation Case</property>
+      <property
+         name="sdm:polyPoints">L54,391.0,118.74707,199.21368,187.74707,R46</property>
+   </NavigationCase>
+   <NavigationCase
+      islink="true"
+      id="NavigationCase8"
+      from="Page4"
+      to="Page2">
+      <property
+         name="fromOutcome">gotoInicioError</property>
+      <property
+         name="description">Navigation Case</property>
+      <property
+         name="sdm:polyPoints">L54,393.8728,266.6953,198.0,201.74707,R62</property>
+   </NavigationCase>
+</SDM>
